@@ -1,0 +1,144 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prime Cab Geelong - Your Prime Choice for Rides</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+            color: #333;
+        }
+        header {
+            background-color: #FFD700;
+            color: #000;
+            text-align: center;
+            padding: 2rem;
+        }
+        nav {
+            position: sticky;
+            top: 0;
+            background: #000;
+            padding: 0.5rem 0;
+            z-index: 1000;
+        }
+        nav a {
+            color: #FFD700;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 2rem;
+            text-align: center;
+        }
+        .hero {
+            background: url('https://via.placeholder.com/1200x400?text=Reliable+Taxi+Service+in+Geelong') no-repeat center center;
+            background-size: cover;
+            padding: 4rem 0;
+            color: #000;
+        }
+        .hero h2 {
+            font-size: 2.5rem;
+        }
+        .booking-form {
+            max-width: 500px;
+            margin: 0 auto;
+            text-align: left;
+        }
+        .booking-form input, .booking-form button {
+            width: 100%;
+            padding: 1rem;
+            margin: 0.5rem 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .booking-form button {
+            background: #000;
+            color: #FFD700;
+            border: none;
+            cursor: pointer;
+        }
+        .booking-form button:hover {
+            background: #333;
+        }
+        .about, .services, .contact {
+            background-color: #f9f9f9;
+            margin: 2rem 0;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background: #000;
+            color: #FFD700;
+            text-align: center;
+            padding: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Prime Cab Geelong</h1>
+        <p>Your Prime Choice for Rides in Geelong</p>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#book">Book Now</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="home" class="hero">
+        <h2>Fast, Reliable, and Always On Time</h2>
+        <p>Book your ride now and enjoy stress-free travel in Geelong and beyond.</p>
+        <button style="padding: 1rem 2rem; background: #000; color: #FFD700; border: none; cursor: pointer;">Book Now</button>
+    </section>
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>Prime Cab Geelong is a trusted taxi service committed to providing reliable, professional, and comfortable rides in Geelong and its surrounding areas. Available 24/7, we are dedicated to ensuring your journey is safe and seamless.</p>
+        <h3>A Message from Your Driver</h3>
+        <p>"As your dedicated driver, I take pride in offering a taxi service that is not only punctual and efficient but also focused on creating a comfortable and enjoyable experience for every passenger. Thank you for choosing Prime Cab Geelong!"</p>
+    </section>
+    <section id="book" class="services">
+        <h2>Book Your Ride</h2>
+        <form class="booking-form" action="#" method="post">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+            
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" name="phone" placeholder="Your Phone Number" required>
+            
+            <label for="pickup">Pickup Location</label>
+            <input type="text" id="pickup" name="pickup" placeholder="Enter Pickup Location" required>
+            
+            <label for="dropoff">Drop-off Location</label>
+            <input type="text" id="dropoff" name="dropoff" placeholder="Enter Drop-off Location" required>
+            
+            <label for="date">Date</label>
+            <input type="date" id="date" name="date" required>
+            
+            <label for="time">Time</label>
+            <input type="time" id="time" name="time" required>
+            
+            <button type="submit">Book Now</button>
+        </form>
+    </section>
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>Phone: 0434 837 822</p>
+        <p>Email: primecabgeelong@gmail.com</p>
+        <h3>Accepted Payment Methods</h3>
+        <p>Cash, EFTPOS, Visa, Mastercard.</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Prime Cab Geelong. All rights reserved.</p>
+    </footer>
+</body>
+</html>
